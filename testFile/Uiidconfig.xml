@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <contact name="联系人应用" appPackage="com.android.contacts" appActivity="com.android.contacts.activities.PeopleActivity" >
+        <activity name="联系人界面" >
+            <widget name="删除按钮" id="id/menu_delete" />
+            <widget name="联系人计数" id="id/contacts_count" />
+            <widget name="新建联系人图标" id="com.android.contacts:id/floating_action_button" />
+            <widget name="没有联系人" id="id/message" />
+        </activity>
+		<activity name="联系人详情界面">
+            <widget name="姓名标签" id="com.android.contacts:id/large_title" />
+        </activity>
+        <activity name="本地保存" id="PopupWindow.fcff19">
+            <widget name="default" id="id/list">
+                <item name="电话" id="id/text2" />
+                <item name="SIM1" id="id/text2" />
+            </widget>
+            <widget name="确定" id="id/right_button" />
+        </activity>
+        <activity name="新增联系人界面">
+            <widget name="姓名PHONE" text="姓氏" class="android.widget.EditText"/>
+            <widget name="电话PHONE" text="电话" class="android.widget.EditText" />
+            <widget name="电子邮件PHONE" text="电子邮件" class="android.widget.EditText" />
+            <widget name="姓名SIM" text="姓名" class="android.widget.EditText"/>
+            <widget name="电话SIM" text="电话" class="android.widget.EditText" />
+            <widget name="电子邮件SIM" text="电子邮件" class="android.widget.EditText" />
+            <widget name="保存" id="com.android.contacts:id/editor_menu_save_button" />
+            <widget name="存储位置" id="id/account_name" />
+		</activity>
+    </contact>
+
+    <calling name="电话应用" appPackage="com.android.dialer" appActivity="com.android.dialer.app.DialtactsActivity" >
+        <activity name="拨号盘界面" >
+            <widget name="拨号盘" id="com.android.dialer:id/floating_action_button"/>
+            <widget name="*号按键" id="com.android.dialer:id/star" />
+            <widget name="#号按键" id="com.android.dialer:id/pound" />
+            <widget name="拨打电话键" id="com.android.dialer:id/dialpad_floating_action_button"/>
+            <widget name="挂断电话键" id="com.android.dialer:id/incall_end_call" />
+            <widget name="通话计时菜单" id="com.android.dialer:id/contactgrid_bottom_timer"/>
+
+        </activity>
+    </calling>
+
+</root>
