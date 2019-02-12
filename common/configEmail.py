@@ -54,7 +54,7 @@ class Email:
         write the content of email
         :return:
         """
-        f = open(os.path.join(readConfig.proDir, 'testFile', 'emailStyle.txt'))
+        f = open(os.path.join(readConfig.proDir, 'testFile', 'emailStyle.txt'),'r', encoding='UTF-8')
         content = f.read()
         f.close()
         content_plain = MIMEText(content, 'html', 'UTF-8')

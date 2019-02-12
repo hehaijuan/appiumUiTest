@@ -1,0 +1,7 @@
+2019-02-11 14:27:03,750 - root - INFO - ********TEST START********
+2019-02-11 14:27:03,750 - root - INFO - testCall测试开始前准备
+2019-02-11 14:28:18,529 - root - INFO - 测试结束，输出log完结
+
+
+2019-02-11 14:28:27,169 - root - INFO - *********TEST END*********
+2019-02-11 14:28:28,679 - root - INFO - The test report has send to developer by email.

@@ -3,7 +3,7 @@ import unittest
 from common.Log import MyLog as Log
 import readConfig as readConfig
 import HTMLTestRunner
-#from common.configEmail import MyEmail
+from common.configEmail import MyEmail
 
 localReadConfig = readConfig.ReadConfig()
 
@@ -11,16 +11,16 @@ localReadConfig = readConfig.ReadConfig()
 class AllTest:
     def __init__(self):
         global log, logger, resultPath
-        #global on_off
+        global on_off
         log = Log.get_log()
         logger = log.get_logger()
         resultPath = log.get_report_path()
-        #on_off = localReadConfig.get_email("on_off")
+        on_off = localReadConfig.get_email("on_off")
         self.caseListFile = os.path.join(readConfig.proDir, "caselist.txt")
         self.caseFile = os.path.join(readConfig.proDir, "testCase")
         # self.caseFile = None
         self.caseList = []
-        #self.email = MyEmail.get_email()
+        self.email = MyEmail.get_email()
 
     def set_case_list(self):
         """
@@ -79,12 +79,12 @@ class AllTest:
             logger.info("*********TEST END*********")
             fp.close()
             # send test report by email
-            #if on_off == 'on':
-                #self.email.send_email()
-            #elif on_off == 'off':
-                #logger.info("Doesn't send report email to developer.")
-            #else:
-                #logger.info("Unknow state.")
+            if on_off == 'on':
+                self.email.send_email()
+            elif on_off == 'off':
+                logger.info("Doesn't send report email to developer.")
+            else:
+                logger.info("Unknow state.")
 
 
 if __name__ == '__main__':

@@ -1,0 +1,8 @@
+2019-02-11 10:14:37,717 - root - INFO - ********TEST START********
+2019-02-11 10:14:37,717 - root - INFO - testCall01测试开始前准备
+2019-02-11 10:14:39,764 - selenium.webdriver.remote.remote_connection - INFO - Could not connect to port 4723 on host localhost
+2019-02-11 10:14:39,764 - selenium.webdriver.remote.remote_connection - INFO - Could not get IP address for host: localhost
+2019-02-11 10:14:41,826 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019B8F16A588>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2019-02-11 10:14:43,903 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019B8F16A898>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2019-02-11 10:14:45,965 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019B8F16A828>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2019-02-11 10:14:48,106 - root - INFO - *********TEST END*********
