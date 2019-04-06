@@ -1,0 +1,15 @@
+2019-03-25 16:49:56,000 - root - INFO - ********TEST START********
+2019-03-25 16:49:56,000 - root - INFO - ********TEST START********
+2019-03-25 16:49:56,001 - root - INFO - testCall测试开始前准备
+2019-03-25 16:49:56,001 - root - INFO - testCall测试开始前准备
+2019-03-25 16:50:57,651 - root - INFO - 准备保存截屏:325ac8cf_testcall001
+2019-03-25 16:50:59,894 - root - INFO - 测试结束，输出log完结
+
+
+2019-03-25 16:51:08,723 - root - INFO - 测试结束，输出log完结
+
+
+2019-03-25 16:51:08,780 - root - INFO - *********TEST END*********
+2019-03-25 16:51:08,780 - root - INFO - Doesn't send report email to developer.
+2019-03-25 16:51:17,673 - root - INFO - *********TEST END*********
+2019-03-25 16:51:17,673 - root - INFO - Doesn't send report email to developer.

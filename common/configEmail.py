@@ -14,7 +14,6 @@ import glob
 
 localReadConfig = readConfig.ReadConfig()
 
-
 class Email:
     def __init__(self):
         global host, user, password, port, sender, title
@@ -34,7 +33,7 @@ class Email:
 
         # defined email subject
         date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        self.subject = "接口测试报告" + " " + date
+        self.subject = "AppiumUiTest" + " " + date
 
         self.log = MyLog.get_log()
         self.logger = self.log.get_logger()
@@ -152,13 +151,11 @@ class MyEmail:
 
     @staticmethod
     def get_email():
-
         if MyEmail.email is None:
             MyEmail.mutex.acquire()
             MyEmail.email = Email()
             MyEmail.mutex.release()
         return MyEmail.email
-
 
 if __name__ == "__main__":
     email = MyEmail.get_email()

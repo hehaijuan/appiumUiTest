@@ -1,3 +1,4 @@
+#  -*- coding:utf-8 -*-
 import os
 import readConfig as readConfig
 import logging
@@ -61,12 +62,14 @@ class Log:
         """
         self.logger.info(case_name+" - Code:"+code+" - msg:"+msg)
 
-    def get_report_path(self):
+    def get_report_path(self,deviceID):
         """
         get report file path
         :return:
         """
-        report_path = os.path.join(logPath, "report.html")
+        #report_path = os.path.join(logPath, "report.html")
+        self.filepathNAME = 'testcase_' + str(deviceID) +'.html'
+        report_path = os.path.join(logPath, self.filepathNAME)
         return report_path
 
     def get_result_path(self):
@@ -89,15 +92,18 @@ class Log:
         except FileNotFoundError as ex:
             logger.error(str(ex))
     @staticmethod
-    def get_screen_path(testcase):
+    def get_screen_path(deviceID,testcase):
         """
         get test screen path
         :return:
         """
-        testcase = str(testcase)
-        pngname = testcase + "_" + str(datetime.now().strftime("%Y%m%d%H%M%S")) + ".png"
+        pngname = str(deviceID) + "_" + str(testcase) + "_" + str(datetime.now().strftime("%Y%m%d%H%M%S")) + ".png"
         path = os.path.join(screenPath, pngname)
+        log = MyLog.get_log()
+        logger = log.get_logger()
+        logger.info("准备保存截屏:%s"%pngname)
         return path
+
 class MyLog:
     log = None
     mutex = threading.Lock()

@@ -1,0 +1,18 @@
+2019-03-26 15:32:37,086 - root - INFO - ********TEST START********
+2019-03-26 15:32:37,090 - root - INFO - testCall测试开始前准备
+2019-03-26 15:32:37,092 - root - INFO - ********TEST START********
+2019-03-26 15:32:37,097 - root - INFO - testCall测试开始前准备
+2019-03-26 15:32:39,410 - root - INFO - *********TEST END*********
+2019-03-26 15:32:39,411 - root - INFO - Doesn't send report email to developer.
+2019-03-26 15:33:59,245 - root - INFO - 准备保存截屏:325ac8e7_testContact001_20190326153359.png
+2019-03-26 15:34:00,242 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000080B1BA1358>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /wd/hub/session/61b0553b-ed9e-4a87-b94e-eadb1e569ad7/screenshot
+2019-03-26 15:34:01,246 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000080B1BA1390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /wd/hub/session/61b0553b-ed9e-4a87-b94e-eadb1e569ad7/screenshot
+2019-03-26 15:34:02,248 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000080B1BA1550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /wd/hub/session/61b0553b-ed9e-4a87-b94e-eadb1e569ad7/screenshot
+2019-03-26 15:34:03,261 - root - INFO - 测试结束，输出log完结
+
+
+2019-03-26 15:34:04,263 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000080B1B974A8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /wd/hub/session/61b0553b-ed9e-4a87-b94e-eadb1e569ad7
+2019-03-26 15:34:05,266 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000080B1B97E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /wd/hub/session/61b0553b-ed9e-4a87-b94e-eadb1e569ad7
+2019-03-26 15:34:06,259 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000080B1B97DD8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /wd/hub/session/61b0553b-ed9e-4a87-b94e-eadb1e569ad7
+2019-03-26 15:34:07,369 - root - INFO - *********TEST END*********
+2019-03-26 15:34:07,371 - root - INFO - Doesn't send report email to developer.

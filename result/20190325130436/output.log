@@ -1,0 +1,15 @@
+2019-03-25 13:04:37,086 - root - INFO - ********TEST START********
+2019-03-25 13:04:37,086 - root - INFO - ********TEST START********
+2019-03-25 13:04:37,087 - root - INFO - testCall测试开始前准备
+2019-03-25 13:04:37,089 - root - INFO - testCall测试开始前准备
+2019-03-25 13:05:07,973 - root - INFO - 测试结束，输出log完结
+
+
+2019-03-25 13:05:11,143 - root - INFO - *********TEST END*********
+2019-03-25 13:05:11,143 - root - INFO - Doesn't send report email to developer.
+2019-03-25 13:05:40,911 - root - INFO - 准备保存截屏:4725_testvall002
+2019-03-25 13:05:43,129 - root - INFO - 测试结束，输出log完结
+
+
+2019-03-25 13:05:51,982 - root - INFO - *********TEST END*********
+2019-03-25 13:05:51,983 - root - INFO - Doesn't send report email to developer.

@@ -3,6 +3,6 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/common/configEmail.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testFile/emailStyle.txt" charset="UTF-8" />
-    <file url="PROJECT" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

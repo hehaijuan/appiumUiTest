@@ -1,0 +1,16 @@
+2019-03-28 14:42:43,937 - root - INFO - ********TEST START********
+2019-03-28 14:42:43,938 - root - INFO - ********TEST START********
+2019-03-28 14:42:43,939 - root - INFO - testCall测试开始前准备
+2019-03-28 14:42:43,940 - root - INFO - testCall测试开始前准备
+2019-03-28 14:42:46,160 - root - INFO - *********TEST END*********
+2019-03-28 14:42:46,160 - root - INFO - Doesn't send report email to developer.
+2019-03-28 14:43:27,202 - root - INFO - 准备保存截屏:325ac8cf_testcall001_20190328144327.png
+2019-03-28 14:43:28,939 - root - INFO - 准备保存截屏:325ac8cf_testcall002_20190328144328.png
+2019-03-28 14:43:40,820 - root - INFO - 准备保存截屏:325ac8cf_testcall003_20190328144340.png
+2019-03-28 14:43:52,794 - root - INFO - 准备保存截屏:325ac8cf_testcall004_20190328144352.png
+2019-03-28 14:43:55,116 - root - INFO - 准备保存截屏:325ac8cf_testcall005_20190328144355.png
+2019-03-28 14:43:57,324 - root - INFO - 测试结束，输出log完结
+
+
+2019-03-28 14:44:06,400 - root - INFO - *********TEST END*********
+2019-03-28 14:44:06,400 - root - INFO - Doesn't send report email to developer.
